@@ -21,8 +21,11 @@ The configuration (see below) needs your Ezviz username & password you use withi
 
 Next, add the Ezviz camera to your `configuration.yaml` file like below:
 
+ffmpeg is required unless it is already added
+
 ```yaml
 # Example configuration.yaml entry
+ffmpeg:
 camera:
   - platform: ezviz
     username: YOUR_USERNAME
